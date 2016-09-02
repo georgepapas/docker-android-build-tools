@@ -4,7 +4,7 @@ MAINTAINER George Papastamatopoulos "george.papas@gmail.com"
 
 VOLUME /root/.gradle
 
-ENV ANDROID_BUILD_TOOLS_VERSION 24.0.4
+ENV ANDROID_BUILD_TOOLS_VERSION 24.0.1
 
 ENV DROID_XTRA extra-android-m2repository,extra-android-support
 ENV DROID_TOOLS platform-tools,tools,build-tools-${ANDROID_BUILD_TOOLS_VERSION}
