@@ -8,7 +8,7 @@ ENV ANDROID_BUILD_TOOLS_VERSION 24.0.0
 
 ENV DROID_XTRA extra-android-m2repository,extra-android-support
 ENV DROID_TOOLS platform-tools,tools,build-tools-${ANDROID_BUILD_TOOLS_VERSION}
-ENV DROID_API_LEVELS android-23 
+ENV DROID_API_LEVELS android-24 
 
 ENV FILTER ${DROID_XTRA},${DROID_TOOLS},${DROID_API_LEVELS}
 
