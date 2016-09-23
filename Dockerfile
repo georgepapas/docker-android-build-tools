@@ -6,7 +6,7 @@ VOLUME /root/.gradle
 
 ENV ANDROID_BUILD_TOOLS_VERSION 24.0.0
 
-ENV DROID_XTRA extra-android-m2repository,extra-android-support
+ENV DROID_XTRA extra-android-m2repository,extra-android-support,extra-google-m2repository
 ENV DROID_TOOLS platform-tools,tools,build-tools-${ANDROID_BUILD_TOOLS_VERSION}
 ENV DROID_API_LEVELS android-24 
 
