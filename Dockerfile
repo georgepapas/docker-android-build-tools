@@ -4,7 +4,11 @@ MAINTAINER George Papastamatopoulos "george.papas@gmail.com"
 
 VOLUME /root/.gradle
 
-ENV ANDROID_BUILD_TOOLS_VERSION 24.0.4
+run echo "8933bad161af4178b1185d1a37fbf41ea5269c55" > $ANDROID_HOME/licences/android-sdk-license && \
+    echo "84831b9409646a918e30573bab4c9c91346d8abd" > $ANDROID_HOME/licences/android-sdk-preview-license && \
+    echo "d975f751698a77b662f1254ddbeed3901e976f5a" > $ANDROID_HOME/licences/intel-android-extra-license
+
+ENV ANDROID_BUILD_TOOLS_VERSION 24.0.2
 
 ENV DROID_XTRA extra-android-m2repository,extra-android-support,extra-google-m2repository
 ENV DROID_TOOLS platform-tools,tools,build-tools-${ANDROID_BUILD_TOOLS_VERSION}
